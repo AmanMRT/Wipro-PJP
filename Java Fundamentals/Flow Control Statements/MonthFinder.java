@@ -7,8 +7,10 @@ public class MonthFinder
 {
 	static void checkMonth(int month)
 	{ 
+                // condition to be checked if no is more than -1
 		if(month > -1)
 		{
+                        // switch loop starts
 			switch(month)
 			{
 			
@@ -76,7 +78,7 @@ public class MonthFinder
 				{
 					System.out.print("Invalid Month Entry");
 				}
-			}
+			}// end switch
 		}
 		//end if
 		else
