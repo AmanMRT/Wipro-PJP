@@ -1,0 +1,5 @@
+// Create a report that displays the last name and hire date for all employees who were hired in 1994.
+
+SELECT `Last_Name`,`Hire_Date` FROM `employees` 
+WHERE employees.Hire_Date 
+LIKE '1945%';

@@ -1,0 +1,2 @@
+// shows specific details from table through alias
+SELECT `EMP_ID` AS Emp, `Last_Name` AS Name, `Dept_ID` AS Job, `Hire_Date` AS Hire_Date FROM `employees`

@@ -1,0 +1,5 @@
+// Insert one record with listing the column names avoiding salary column in the insert statement where salary value remain undetermined. 
+// Check whether data is inserted
+
+INSERT INTO `employees` VALUES (201, "ABC", "DEF")
+INSERT INTO `employees` VALUES (202, "DEF", "MNO")

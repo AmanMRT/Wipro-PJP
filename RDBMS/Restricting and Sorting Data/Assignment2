@@ -1,0 +1,4 @@
+// Create a report that displays the last name and department number for employee number 176.
+
+SELECT `Last_Name`, `Dept_ID`FROM `employees` 
+WHERE EMP_ID<176;

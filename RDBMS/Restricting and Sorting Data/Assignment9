@@ -1,0 +1,6 @@
+//Create a report to display the last name, salary, and commission of all employees who earn commissions. 
+
+SELECT `Last_Name`, `Salary`, `Commision_PCT`FROM `employees` 
+WHERE Commision_PCT 
+IS NOT NULL O
+RDER BY `employees`.`Commision_PCT` DESC

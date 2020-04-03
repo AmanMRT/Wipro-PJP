@@ -1,0 +1,7 @@
+//List employees who earn between $5,000 and $12,000, and are in department 20 or 50. Label the columns as
+//Employee and Monthly Salary, respectively.
+
+SELECT DISTINCT `Last_Name` AS employee , `Salary` AS Monthy_Salary FROM `employees`, departments 
+WHERE Salary BETWEEN 5000 AND 12000 
+AND departments.Dept_ID IN (20, 50) 
+ORDER BY Last_Name;

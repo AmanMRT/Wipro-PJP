@@ -1,0 +1,8 @@
+//Create a query that prompts the user for a manager ID and
+// generates the employee ID, last name, salary and department for that manager’s employees 
+// and prompts a column name by which result should be sorted.
+
+SELECT DISTINCT `EMP_ID`, `Last_Name`, `Salary`, `Salary`, departments.Dept_NAME FROM `employees`, departments 
+WHERE departments.Dept_ID = employees.Dept_ID 
+AND departments.Manager_ID = 200 
+ORDER BY employees.Last_Name

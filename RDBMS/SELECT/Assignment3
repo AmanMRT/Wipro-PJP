@@ -1,0 +1,3 @@
+//shows unique Dept_Id from the Employee's Table
+
+SELECT DISTINCT Dept_ID FROM employees ;

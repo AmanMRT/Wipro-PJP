@@ -1,0 +1,5 @@
+//  Delete employees whose name either first or last name has char seq of ‘man’
+
+DELETE FROM `employees` 
+WHERE First_Name = "%man%" 
+OR Last_Name = "%man%";

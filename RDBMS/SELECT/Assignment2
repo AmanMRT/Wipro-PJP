@@ -1,0 +1,3 @@
+// shows how to collect specific items from table with alias AS
+
+SELECT `EMP_ID`, `Last_Name`,`Dept_ID`, `Hire_Date` AS Start_Date FROM `employees`;

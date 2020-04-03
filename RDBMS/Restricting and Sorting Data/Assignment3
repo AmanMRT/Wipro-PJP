@@ -1,0 +1,5 @@
+// To find high-salary and low-salary employees.
+
+SELECT `Last_Name`, `Salary`FROM `employees` 
+WHERE Salary 
+BETWEEN 5000 AND 12000;

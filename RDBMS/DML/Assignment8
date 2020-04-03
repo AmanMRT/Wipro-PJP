@@ -1,0 +1,4 @@
+// Create a query to update Last_name of emp 202 to Higgins.
+
+UPDATE `employees` SET `Last_Name`="Higgins" 
+WHERE EMP_ID=102; 

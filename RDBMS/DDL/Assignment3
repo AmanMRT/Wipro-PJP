@@ -1,0 +1,11 @@
+//
+
+CREATE TABLE EMP (Emp_ID int(7) PRIMARY KEY NULL, First_Name varchar(25), Last_Name varchar(25) NOT NULL, Dept_ID int(7),
+ FOREIGN KEY (Dept_ID) REFERENCES dept(Dept_ID));
+ 
+INSERT INTO `emp`(`Emp_ID`, `First_Name`, `Last_Name`, `Dept_ID`) VALUES (101,"Sam","Sundar",10);
+INSERT INTO `emp`(`Emp_ID`, `First_Name`, `Last_Name`, `Dept_ID`) VALUES (101,"Ram","Krishna",20);	//will not insert into table beacuse of Duplicate value of Emp_ID
+INSERT INTO `emp`(`Emp_ID`, `First_Name`, `Last_Name`, `Dept_ID`) VALUES (102,"Gopi","null",40);
+INSERT INTO `emp`(`Emp_ID`, `First_Name`, `Last_Name`, `Dept_ID`) VALUES (103,"null","ram",20);
+ 
+INSERT INTO `emp`(`Emp_ID`, `First_Name`, `Last_Name`, `Dept_ID`) VALUES (104,"Ram","Krishna",20);	// this will be inserted sucessfuly

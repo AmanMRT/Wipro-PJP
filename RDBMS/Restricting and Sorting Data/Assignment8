@@ -1,0 +1,6 @@
+// Create a report to display the last name and job title of all employees who do not have a manager.
+
+SELECT DISTINCT `Last_Name`, Dept_NAME FROM `employees`, departments 
+WHERE departments.Dept_ID = employees.Dept_ID 
+AND departments.Dept_NAME!="Manager" 
+ORDER BY Last_Name

@@ -1,0 +1,3 @@
+// will shows all rows and coloums of the specific table
+SELECT * FROM departments;
+

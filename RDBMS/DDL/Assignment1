@@ -1,0 +1,4 @@
+//Create the DEPT table based on the following table instance chart.
+
+CREATE TABLE DEPT (Dept_ID int(7) PRIMARY KEY, Dept_Name varchar(10))
+

@@ -1,0 +1,5 @@
+//Create a report that displays the last name and salary of employees who earn more than an 
+// amount that the user specifies after a prompt. 
+
+SELECT `Last_Name`, `Salary` FROM `employees` 
+WHERE Salary >= &Salary ;

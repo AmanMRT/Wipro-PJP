@@ -1,0 +1,4 @@
+//  Insert one record without listing the column names in the insert statement. Check whether data is inserted
+
+INSERT INTO `employees`(`EMP_ID`, `First_Name`, `Last_Name`, `Salary`, `Dept_ID`) 
+VALUES (201, "Micheal", "Hartstein", 13000, 110);

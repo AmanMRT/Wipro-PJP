@@ -1,0 +1,9 @@
+// Use the above Script to insert the below given records
+
+INSERT INTO `employees` VALUES (205 , "Shelley", "Higgins", 110, 12000);
+INSERT INTO `employees` VALUES (100 , "Steven", "King", 90, 24000);
+INSERT INTO `employees` VALUES (101 , "Neena", "Kochhar", 90, 17000);
+INSERT INTO `employees` VALUES (102 , "Lex De", "Haan", 90, 17000);
+INSERT INTO `employees` VALUES (111 , " Ismael ", "Sciarra", 100, 7700);
+INSERT INTO `employees` VALUES (112 , "Jose Manuel ", "Urman", 100, 10000);
+INSERT INTO `employees` VALUES (204 , " Hermann ", "Baer", 70, 100000);

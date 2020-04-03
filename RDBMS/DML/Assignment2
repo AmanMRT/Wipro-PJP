@@ -1,0 +1,3 @@
+// Test the table creation by viewing the structure using describe command
+
+SHOW COLUMNS FROM employees;

@@ -1,0 +1,5 @@
+// Create a report to display the last name, job ID, and hire date for employees with the last names of Matos and Taylor. 
+//Order the query in ascending order by the hire date.
+
+SELECT `Last_Name`, `Dept_ID`, `Hire_Date` FROM `employees` 
+ORDER BY Hire_Date;

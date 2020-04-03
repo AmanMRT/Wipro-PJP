@@ -1,0 +1,8 @@
+//Populate the DEPT table with data from the DEPARTMENTS table. 
+//Include only columns that you need.
+
+INSERT INTO `dept`(`Dept_ID`, `Dept_Name`) VALUES (10, "Accounts");
+INSERT INTO `dept`(`Dept_ID`, `Dept_Name`) VALUES (null, "IT");
+UPDATE `dept` SET `Dept_ID`= 20 WHERE `Dept_Name`="IT";
+UPDATE `dept` SET `Dept_ID`= A1 WHERE `Dept_Name`="Accounts";
+UPDATE `dept` SET `Dept_ID`= 30 WHERE `Dept_Name`="Accounts";

@@ -1,0 +1,5 @@
+//  Display the last name and department ID of all employees in departments 20 or 50 in ascending alphabetical order by name.
+
+SELECT `Last_Name`, `Dept_ID` FROM `employees` departments 
+WHERE departments.Dept_ID IN (20, 50) 
+ORDER BY Last_Name;
