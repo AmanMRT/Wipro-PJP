@@ -1,3 +1,6 @@
+<%@page import="java.util.Iterator"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -13,7 +16,7 @@
 	<input type="submit">
 	</form>
 	
-	<% //Use tm print ArrayList al %>
 	${al}
+	
 </body>
 </html>
